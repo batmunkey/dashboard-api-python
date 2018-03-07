@@ -10,6 +10,7 @@ Also available via [PIP](https://pypi.python.org/pypi/meraki/).
   * Use pip (or alternative such as easy_install) to install required packages:
     * pip install requests
     * pip install meraki
+    * pip install ipaddress
 * You are now ready to create your first script:
   * create a new file and name it with python extension, e.g., meraki_hello_world.py
   * import the meraki api into your script, e.g.,  from meraki import meraki
