@@ -1,6 +1,8 @@
 Python 3.6 module providing all current Meraki [Dashboard API](https://dashboard.meraki.com/api_docs) calls to interface with the Cisco Meraki cloud-managed IT solutions.
 Also available via [PIP](https://pypi.python.org/pypi/meraki/).
 
+Install via pip install https://github.com/batmunkey/dashboard-api-python/zipball/master
+
 
 ## Initial Setup
 * Enable APIs in your Meraki dashboard and obtain an APIKey: [Instructions](https://documentation.meraki.com/zGeneral_Administration/Other_Topics/The_Cisco_Meraki_Dashboard_API) 
