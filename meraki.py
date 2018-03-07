@@ -3266,8 +3266,8 @@ def updatessid(apikey, networkid, ssidnum, name, enabled, authmode, encryptionmo
 
 # Update the attributes of an SSID
 # https://api.meraki.com/api_docs#update-the-attributes-of-an-ssid
+"""
 def updatessidobject(apikey, networkid, newssid: SSID, suppressprint=False):
-    '''
 
     Args:
         apikey: User's Meraki API Key
@@ -3278,7 +3278,6 @@ def updatessidobject(apikey, networkid, newssid: SSID, suppressprint=False):
     Returns:
         result: Error message or details of newly created SSID
 
-    '''
     # puturl = '{0}/networks/{1}/ssids/{2}'.format(str(base_url), str(networkid), newelement.ssidnum)
     headers = {
         'x-cisco-meraki-api-key': format(str(apikey)),
@@ -3297,7 +3296,7 @@ def updatessidobject(apikey, networkid, newssid: SSID, suppressprint=False):
     #
     result = __returnhandler(dashboard.status_code, dashboard.text, str(newssid.type).upper(), suppressprint)
     return result
-
+"""
 
 ### STATIC ROUTES ###
 
